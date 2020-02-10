@@ -232,6 +232,14 @@ body{
     justify-content:space-evenly;
 }
 
+@media (max-width:1149px){
+    .news_1 img+p,
+    .news_2 img+p,
+    .news_3 img+p{
+        font-size: 15px;
+    }
+    }
+
 @media (max-width:762px) {
 /******Index***************/
     .nav_content{
@@ -273,6 +281,26 @@ body{
         width:70%;
     }
 
-/****************************
-    
+/****************************News***************/
+.news_1 img+p,
+.news_2 img+p,
+.news_3 img+p{
+    font-size: 12px;
+}
+}
+
+@media (max-width:600px) {
+.news_1 img+p,
+.news_2 img+p,
+.news_3 img+p{
+    font-size: 11px;
+}
+}
+
+@media (max-width:400px) {
+    .news_1 img+p,
+    .news_2 img+p,
+    .news_3 img+p{
+    font-size: 9px;
+    }
 }
