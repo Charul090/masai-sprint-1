@@ -124,6 +124,7 @@ body{
 .news_2 img+p,
 .news_3 img+p{
     font-size: 20px;
+    text-align: justify;
 }
 .news_1,
 .news_2,
@@ -287,6 +288,41 @@ body{
 .news_3 img+p{
     font-size: 12px;
 }
+
+/*************************Facts*******************/
+.facts_11 h1{
+    font-size: 60px;
+}
+.facts_11 h2,
+.facts_31 h2,
+.facts_21 h2{
+    font-size: 30px;
+}
+
+.facts_11 ul,
+.facts_21 ul,
+.facts_31 ul{
+    font-size: 19px;
+}
+
+/*************************Gallery*************/
+.gal_grid{
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    padding-bottom: 20px;
+}
+
+.gal_grid2 > img,
+.gal_grid3 > img,
+.gal_grid4 > img,
+.gal_grid5 > img,
+.gal_grid6 > img,
+.gal_grid7 > img,
+.gal_grid8 > img{
+    height:90%;
+    width:80%;
+}
 }
 
 @media (max-width:600px) {
@@ -295,12 +331,50 @@ body{
 .news_3 img+p{
     font-size: 11px;
 }
+
+.facts_11 ul,
+.facts_21 ul,
+.facts_31 ul{
+    font-size: 15px;
+}
 }
 
 @media (max-width:400px) {
+    .nav_content > span {
+font-size: 12px;    
+    }
+    .foot_cont{
+        font-size:12px;
+    }
     .news_1 img+p,
     .news_2 img+p,
     .news_3 img+p{
     font-size: 9px;
     }
+
+.facts_11 ul,
+.facts_21 ul,
+.facts_31 ul{
+    font-size: 12px;
+}
+
+.facts_11 h1{
+    font-size: 40px;
+}
+
+.facts_11 h2,
+.facts_31 h2,
+.facts_21 h2{
+    font-size: 20px;
+}
+
+.facts h1,
+.cyclone1 > h1{
+    font-size: 30px;
+}
+
+.cyclone_wiki{
+    font-size: 40px;
+}
+
 }
