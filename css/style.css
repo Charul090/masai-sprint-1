@@ -18,13 +18,19 @@ body{
     line-height: 4;    
 }
 
+.nav_content > span >a {
+    text-decoration: none;
+    color: black;
+}
+
 #logo img{
     height:60px;
     width:60px;
 }
 
-/************************Main**********************************/
-/******************one********************/
+/******************************Main***************************/
+/************************index**************************/
+/********************one********************/
 .one{
     background-color: #FAFAFA;
     text-align: center;
@@ -95,7 +101,42 @@ body{
 .facts_6 figure > img{
     height:190px;
 }
+/****************************news*****************/
+.news_grid{
+    padding:10px 10px 30px;
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: 150px 300px 300px 300px;
+    grid-gap: 20px;
+    background-color: #F5F5F5;    
+}
 
+.news_1 img{
+    height:240px;
+    float: left;
+    padding: 0 20px 0 10px;
+    width:30%;
+}
+
+.news_1 img+p,
+.news_2 img+p,
+.news_3 img+p{
+    font-size: 20px;
+}
+.news_1,
+.news_2,
+.news_3{
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.news_1 ~ section > img{
+    height:240px;
+    float: left;
+    padding: 0 10px;
+    width:30%;
+}
 /*****Footer CSS*****/
 .footer{
     background-color: #FFEBEE;
