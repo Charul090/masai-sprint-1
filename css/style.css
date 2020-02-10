@@ -39,8 +39,8 @@ body{
     font-weight: 500;
 }
 
-.main_img{
-    width:100%;
+.main_img img{
+    max-width:100%;
     margin:0;
 }
 
@@ -100,7 +100,7 @@ body{
 .footer{
     background-color: #FFEBEE;
     margin: auto 0 0 0;
-    padding:10px 5px;
+    padding:20px 10px;
     color: crimson;
 }
 
