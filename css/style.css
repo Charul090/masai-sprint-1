@@ -171,6 +171,50 @@ body{
     border-radius: 6px;
 }
 /********************************************************/
+/*******************************Facts********************/
+.facts_11{
+    background-color: #FAFAFA;
+    padding:20px 10px;
+    font-family: 'Nanum Gothic', sans-serif;
+    color:#D32F2F;
+}
+
+.facts_11 h1{
+    text-align: center;
+    font-family: 'Sriracha', cursive;
+    font-size: 80px;
+    color:#B71C1C;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+.facts_11 h2,
+.facts_31 h2{
+    font-size: 50px;
+    color:#D32F2F;
+}
+.facts_21 h2{
+    font-size: 50px;
+} 
+.facts_11 ul,
+.facts_21 ul,
+.facts_31 ul{
+    font-size: 30px;
+}
+.facts_21{
+    padding:20px 10px;
+    background-color: #E57373;
+    color:white;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.facts_31{
+    background-color: #FAFAFA;
+    padding:20px 10px;
+    font-family: 'Nanum Gothic', sans-serif;
+    color:#D32F2F;
+}
+/*******************************************************/
 /*****Footer CSS*****/
 .footer{
     background-color: #FFEBEE;
