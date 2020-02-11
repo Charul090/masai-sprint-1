@@ -74,7 +74,7 @@ body{
 .facts{
     display:grid;
     grid-template-columns: auto;
-    grid-template-rows: 80px 500px;
+    grid-template-rows: 80px 800px;
     font-family: 'Nanum Gothic', sans-serif;
     color:#C62828;
     grid-gap: 20px 10px;
@@ -92,16 +92,19 @@ body{
 .facts_2{
     display:grid;
     grid-template-columns:auto auto;
-    grid-template-rows: 240px 240px;
+    grid-template-rows: 380px 380px;
     text-align: center;
-    grid-gap: 30px 0;
+    grid-gap: 30px 20px;
 }
 
 .facts_3 figure > img,
 .facts_4 figure > img,
 .facts_5 figure > img,
 .facts_6 figure > img{
-    height:190px;
+    width:80%;
+    padding:6px;
+    border:1px solid #BDBDBD;
+    border-radius: 4px;
 }
 /*************************************************/
 /****************************news*****************/
